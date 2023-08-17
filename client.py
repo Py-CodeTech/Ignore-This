@@ -1,4 +1,6 @@
-#Start-Process -WindowStyle hidden -FilePath Notepad.exe (Run in Powershell)
+#@echo off
+#powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -WindowStyle hidden -FilePath Client.py"
+
 
 import socket
 import time
